@@ -1,4 +1,0 @@
-repository "RPG_Project@ssl://wechat_os_qy07m1dim-gdxlynpiev0oddk@sh01-plasticscm.unity.cn:8787"
-  path "/"
-    br "/main"
-    co "/main"
