@@ -7,6 +7,7 @@ public enum EnemtStates { GUARD, PATROL, CHASE, DEAD };//?????????????????
 
 //????????锟斤拷????
 [RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(CharacterStats))]
 public class EnemyController : MonoBehaviour, IEndGameObserver
 {
     public EnemtStates enemyStates;
@@ -18,7 +19,7 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
 
     private Animator anim;
     private NavMeshAgent agent;
-    private GameObject attackTarget;
+    protected GameObject attackTarget;
     private CharacterStats characterStats;
     private Collider coll;
 
@@ -235,8 +236,8 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     void EnemyDeadLogic()
     {
         coll.enabled = false;
-        agent.enabled = false;
-
+        // agent.enabled = false;
+        agent.radius = 0;
         Destroy(gameObject, 2.0f);
     }
     void GetNewWayPoint()
@@ -267,7 +268,9 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     bool TargetInAttackRange()
     {
         if (attackTarget != null)
-        {
+        {   
+            // bool aa = Vector3.Distance(attackTarget.transform.position, transform.position) <= characterStats.attackData.shortRange;
+            // Debug.Log("attack--->TargetInAttackRange():" + aa);
             return Vector3.Distance(attackTarget.transform.position, transform.position) <= characterStats.attackData.shortRange;
         }
         return false;
@@ -276,6 +279,8 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     {
         if (attackTarget != null)
         {
+            // bool aa = Vector3.Distance(attackTarget.transform.position, transform.position) <= characterStats.attackData.shortRange;
+            // Debug.Log("skill--->TargetInSkillRange():" + aa);
             return Vector3.Distance(attackTarget.transform.position, transform.position) <= characterStats.attackData.longRanges;
         }
         return false;

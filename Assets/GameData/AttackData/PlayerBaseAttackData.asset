@@ -15,7 +15,7 @@ MonoBehaviour:
   shortRange: 1.5
   longRanges: 3
   coolDown: 0.5
-  minDamge: 5
-  maxDamge: 10
+  minDamge: 15
+  maxDamge: 20
   criticalMultiplier: 2
   criticalChance: 0.2

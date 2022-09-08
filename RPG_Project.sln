@@ -1,42 +1,31 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{48D48953-4A21-DA3A-20AF-D16529599E1F}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{5389d448-214a-3ada-20af-d16529599e1f}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AimingRig", "AimingRig.csproj", "{FBCF0CD3-466D-A0A7-706F-CDF4AEC2C674}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AimingRig", "AimingRig.csproj", "{d30ccffb-6d46-a7a0-706f-cdf4aec2c674}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Scripts", "Boxophobic.Utils.Scripts.csproj", "{F180EAEC-37C2-BD48-D8E6-1FFA3A0CF95C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Scripts", "Boxophobic.Utils.Scripts.csproj", "{ecea80f1-c237-48bd-d8e6-1ffa3a0cf95c}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Editor", "Boxophobic.Utils.Editor.csproj", "{FEAFDB8C-BC2A-725C-F178-ABFACA139F3A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.Utils.Editor", "Boxophobic.Utils.Editor.csproj", "{8cdbaffe-2abc-5c72-f178-abfaca139f3a}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.SkyboxCubemapExtended.Editor", "Boxophobic.SkyboxCubemapExtended.Editor.csproj", "{5E5033AA-6EC9-ADAA-EBCF-8C1F7F848A27}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxophobic.SkyboxCubemapExtended.Editor", "Boxophobic.SkyboxCubemapExtended.Editor.csproj", "{aa33505e-c96e-aaad-ebcf-8c1f7f848a27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{48D48953-4A21-DA3A-20AF-D16529599E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{48D48953-4A21-DA3A-20AF-D16529599E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{48D48953-4A21-DA3A-20AF-D16529599E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{48D48953-4A21-DA3A-20AF-D16529599E1F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FBCF0CD3-466D-A0A7-706F-CDF4AEC2C674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FBCF0CD3-466D-A0A7-706F-CDF4AEC2C674}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FBCF0CD3-466D-A0A7-706F-CDF4AEC2C674}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FBCF0CD3-466D-A0A7-706F-CDF4AEC2C674}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F180EAEC-37C2-BD48-D8E6-1FFA3A0CF95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F180EAEC-37C2-BD48-D8E6-1FFA3A0CF95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F180EAEC-37C2-BD48-D8E6-1FFA3A0CF95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F180EAEC-37C2-BD48-D8E6-1FFA3A0CF95C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FEAFDB8C-BC2A-725C-F178-ABFACA139F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEAFDB8C-BC2A-725C-F178-ABFACA139F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEAFDB8C-BC2A-725C-F178-ABFACA139F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEAFDB8C-BC2A-725C-F178-ABFACA139F3A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E5033AA-6EC9-ADAA-EBCF-8C1F7F848A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E5033AA-6EC9-ADAA-EBCF-8C1F7F848A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E5033AA-6EC9-ADAA-EBCF-8C1F7F848A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E5033AA-6EC9-ADAA-EBCF-8C1F7F848A27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5389d448-214a-3ada-20af-d16529599e1f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5389d448-214a-3ada-20af-d16529599e1f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d30ccffb-6d46-a7a0-706f-cdf4aec2c674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d30ccffb-6d46-a7a0-706f-cdf4aec2c674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ecea80f1-c237-48bd-d8e6-1ffa3a0cf95c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ecea80f1-c237-48bd-d8e6-1ffa3a0cf95c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8cdbaffe-2abc-5c72-f178-abfaca139f3a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8cdbaffe-2abc-5c72-f178-abfaca139f3a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{aa33505e-c96e-aaad-ebcf-8c1f7f848a27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{aa33505e-c96e-aaad-ebcf-8c1f7f848a27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
