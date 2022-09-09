@@ -65,7 +65,9 @@
      <Compile Include="Assets\Addons\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\Anywhere Door\TagChanger.cs" />
      <Compile Include="Assets\Addons\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
      <Compile Include="Assets\Addons\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\InvokeEventFromInspector.cs" />
+     <Compile Include="Assets\Scripts\Utils\ExtensionMethod.cs" />
      <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Enemy\GolemEnemy.cs" />
      <Compile Include="Assets\Scripts\Enemy\GruntEnemy.cs" />
      <Compile Include="Assets\Scripts\Controllers\EnemyController.cs" />
      <Compile Include="Assets\Addons\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\CameraMagnets\CameraMagnetProperty.cs" />
@@ -78,6 +80,8 @@
      <Compile Include="Assets\Addons\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovementNoCamera.cs" />
      <Compile Include="Assets\Addons\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ActivateCamOnPlay.cs" />
      <Compile Include="Assets\Addons\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
+     <Compile Include="Assets\Scripts\Enemy\GolemRock.cs" />
+     <Compile Include="Assets\Scripts\Enemy\RockPool.cs" />
      <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Extended.shader" />
      <None Include="Assets\Addons\Samples\Cinemachine\2.8.9\Cinemachine Example Scenes\Scenes\FadeOutNearbyObjects\FadeOut.shader" />
      <None Include="Assets\BOXOPHOBIC\Skybox Cubemap Extended\Core\Shaders\Skybox Cubemap Blend.shader" />

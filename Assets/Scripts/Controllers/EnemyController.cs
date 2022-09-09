@@ -20,7 +20,7 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     private Animator anim;
     private NavMeshAgent agent;
     protected GameObject attackTarget;
-    private CharacterStats characterStats;
+    protected CharacterStats characterStats;
     private Collider coll;
 
     private float speed;

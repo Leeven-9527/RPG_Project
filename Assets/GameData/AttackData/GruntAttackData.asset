@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfe596a8fdda4a747a0acb7a0582eabe, type: 3}
   m_Name: GruntAttackData
   m_EditorClassIdentifier: 
-  shortRange: 3
-  longRanges: 4
+  shortRange: 2
+  longRanges: 3
   coolDown: 1
   minDamge: 7
   maxDamge: 10
