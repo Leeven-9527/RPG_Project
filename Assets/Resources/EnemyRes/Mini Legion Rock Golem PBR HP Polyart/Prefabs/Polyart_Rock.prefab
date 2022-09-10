@@ -130,3 +130,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   force: 25
   target: {fileID: 0}
+  rb: {fileID: 1519470660774416797}
+  damage: 8

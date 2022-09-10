@@ -161,13 +161,14 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
     void EnemyGuardLogic()
     {
         isChase = false;
+        isFollow = false;
         if (transform.position != guardPos)
         {
             isWalk = true;
             agent.isStopped = false;
             agent.destination = guardPos;
         }
-        //Vector3.SqrMagnitude?锟斤拷???????????????????
+        //Vector3.SqrMagnitude返回此向量的平方长度
         if (Vector3.SqrMagnitude(guardPos - transform.position) < agent.stoppingDistance)
         {
             isWalk = false;
@@ -326,6 +327,7 @@ public class EnemyController : MonoBehaviour, IEndGameObserver
         isChase = false;
         attackTarget = null;
         isWin = true;
+        agent.isStopped = true;
         anim.SetBool("Win", isWin);
     }
 }

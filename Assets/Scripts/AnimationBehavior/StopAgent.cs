@@ -18,10 +18,10 @@ public class StopAgent : StateMachineBehaviour
     }
 
     //当转换结束且状态机完成此状态的评估时，OnStateExit将被调用
-    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    {
-       animator.GetComponent<NavMeshAgent>().isStopped = false;
-    }
+    // override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    // {
+    //    animator.GetComponent<NavMeshAgent>().isStopped = false;
+    // }
 
     // OnStateMove在Animator.OnAnimatorMove()之后被调用 
     //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

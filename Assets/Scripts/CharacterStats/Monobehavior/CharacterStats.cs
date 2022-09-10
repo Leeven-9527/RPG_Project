@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class CharacterStats : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class CharacterStats : MonoBehaviour
     public CharacterData_SO characterData;
     public bool isCritical;
 
+    public event Action<int, int> UpdateHealthBarOnAttack;
 
     void Awake() {
         if(templateData != null) {
@@ -57,7 +59,14 @@ public class CharacterStats : MonoBehaviour
         }
         //Debug.Log("对敌人造成伤害：" + damage);
         //TODO: Updete UI 经验Update
+        UpdateHealthBarOnAttack?.Invoke(CurrHealth, MaxHealth);
+    }
 
+    public void TakeDamage(int damage, CharacterStats defener)
+    {
+        int currDamage = Mathf.Max(damage - defener.currDefence, 0);
+        CurrHealth = Mathf.Max(CurrHealth  - damage, 0);
+        UpdateHealthBarOnAttack?.Invoke(CurrHealth, MaxHealth);
     }
 
     private int CurrentDamage()
